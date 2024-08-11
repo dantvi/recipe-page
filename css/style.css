@@ -26,6 +26,10 @@ body {
     font-weight: 400;
 }
 
+strong {
+    font-weight: 700;
+}
+
 .img-container {
     width: 37.5rem;
     height: 17.1rem;
@@ -35,3 +39,35 @@ body {
     width: 100%;
     height: 100%;
 }
+
+.title-container {
+    margin: 4.0rem 3.2rem 3.2rem 3.2rem;
+}
+
+.title-container h1 {
+    font-family: 'Young Serif', serif;
+    font-size: 4rem;
+    line-height: 100%;
+    margin-bottom: 2.4rem;
+}
+
+.preparation {
+    margin: 0 3.2rem 3.2rem 3.2rem;
+    background: var(--rose-50);
+    border-radius: 12px;
+    padding: 2.4rem;
+}
+
+.preparation h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 100%;
+    color: var(--rose-800);
+    margin-bottom: 1.6rem;
+}
+
+.preparation ul {
+    margin-left: 2.4rem;
+    color: var(--stone-600);
+}
+
