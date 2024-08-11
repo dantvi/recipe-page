@@ -98,7 +98,12 @@ h2 {
 }
 
 .ingredients-items {
-    padding-left: 1.4rem;
+    padding-left: 1.6rem;
+}
+
+li > span {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 hr {
