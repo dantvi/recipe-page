@@ -20,14 +20,11 @@ body {
     margin: 0;
     min-height: 100vh;
     font-family: 'Outfit', sans-serif;
+    color: var(--stone-600);
     font-size: 1.6rem;
     line-height: 150%;
     letter-spacing: 0;
     font-weight: 400;
-}
-
-strong {
-    font-weight: 700;
 }
 
 .img-container {
@@ -71,3 +68,40 @@ strong {
     color: var(--stone-600);
 }
 
+li::marker {
+    color: var(--brown-800);
+}
+
+.preparation-items:not(:last-child) {
+    margin-bottom: 0.8rem;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.ingredients {
+    margin: 0 3.2rem 3.2rem 3.2rem;
+    
+}
+
+h2 {
+    font-family: 'Young Serif', serif;
+    font-size: 2.8rem;
+    line-height: 100%;
+    color: var(--brown-800);
+    margin-bottom: 2.4rem;
+}
+
+.ingredients ul {
+    padding: 0 2.4rem;
+}
+
+.ingredients-items {
+    padding-left: 1.4rem;
+}
+
+hr {
+    margin: 0 3.2rem 3.2rem 3.2rem;
+    color: var(--stone-150);
+}
