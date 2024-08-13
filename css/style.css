@@ -37,8 +37,8 @@ body {
     height: 100%;
 }
 
-.title-container {
-    margin: 4.0rem 3.2rem 3.2rem 3.2rem;
+.main-content {
+    margin: 4.0rem 3.2rem;
 }
 
 .title-container h1 {
@@ -49,7 +49,7 @@ body {
 }
 
 .preparation {
-    margin: 0 3.2rem 3.2rem 3.2rem;
+    margin: 3.2rem 0;
     background: var(--rose-50);
     border-radius: 12px;
     padding: 2.4rem;
@@ -81,8 +81,7 @@ strong {
 }
 
 .ingredients {
-    margin: 0 3.2rem 3.2rem 3.2rem;
-    
+    margin: 3.2rem 0;
 }
 
 h2 {
@@ -107,6 +106,6 @@ li > span {
 }
 
 hr {
-    margin: 0 3.2rem 3.2rem 3.2rem;
+    margin: 3.2rem 0;
     color: var(--stone-150);
 }
