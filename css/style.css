@@ -72,6 +72,10 @@ li::marker {
     color: var(--brown-800);
 }
 
+.preparation-items {
+    padding-left: 1.6rem;
+}
+
 .preparation-items:not(:last-child) {
     margin-bottom: 0.8rem;
 }
@@ -93,10 +97,10 @@ h2 {
 }
 
 .ingredients ul {
-    padding: 0 2.4rem;
+    padding-left: 2.4rem;
 }
 
-.ingredients-items {
+.items {
     padding-left: 1.6rem;
 }
 
@@ -109,3 +113,12 @@ hr {
     margin: 3.2rem 0;
     color: var(--stone-150);
 }
+
+.instructions ol {
+    padding-left: 2.4rem;
+}
+
+ol li::marker{
+    font-weight: 700;
+}
+
