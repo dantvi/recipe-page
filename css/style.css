@@ -52,6 +52,7 @@ section {
     font-size: 4rem;
     line-height: 100%;
     margin-bottom: 2.4rem;
+    color: var(--stone-900);
 }
 
 .preparation {
@@ -190,5 +191,29 @@ ol li::marker{
 
     .img-container {
         width: 65.6rem;
+    }
+
+    .main-content {
+        margin: 4rem;
+    }
+
+    .preparation h3 {
+        margin-bottom: 1.5rem;
+    }
+
+    .preparation-items:not(:last-child) {
+        margin-bottom: 0.7rem;
+    }
+
+    .ingredients h2 {
+        margin-bottom: 2rem;
+    }
+
+    .items:not(:last-child) {
+        margin-bottom: 0.6rem;
+    }
+
+    ol li:not(:last-child) {
+        padding-bottom: 0.2rem;
     }
 }
