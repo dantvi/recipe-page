@@ -27,6 +27,12 @@ body {
     font-weight: 400;
 }
 
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .img-container {
     width: 37.5rem;
     height: 17.1rem;
@@ -150,4 +156,29 @@ ol li::marker{
 
 .grid-item-last-child {
     padding-left: 3.2rem;
+}
+
+/* Media Query - Tablet */
+@media screen and (min-width: 600px) {
+    body {
+        background: var(--stone-100);
+    }
+
+    .card {
+        background: var(--white);
+        width: 61.6rem;
+        height: 184.4rem;
+        margin: 12.8rem 0;
+        border-radius: 24px;
+    }
+
+    .img-container {
+        width: 53.6rem;
+        height: 30.0rem;
+        margin: 4rem auto;
+    }
+
+    .img-container img {
+        border-radius: 12px;
+    }
 }
